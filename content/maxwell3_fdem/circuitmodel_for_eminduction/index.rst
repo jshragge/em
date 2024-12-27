@@ -41,12 +41,12 @@ current in the loop.
 The circuit model is now understood as follows:
 
 - Loop 1: is the transmitter (Tx).
-  It has a time varying current (I1 e^iwt) and hence produces a time varying
+  It has a time-varying current (:math:`I1 e^{iwt}`) and hence produces a time-varying
   field everywhere in space.
 
 - Loop 2: represents the conductive body.
-  The time varying flux generates currents in the conductor (:math:`I_2
-  e^{\imath \omega t}`). These time varying currents produce a time varying
+  The time-varying flux generates currents in the conductor (:math:`I_2
+  e^{\imath \omega t}`). These time-varying currents produce a time-varying
   field everywhere in space.
 
 - Loop 3: is the receiver (Rx). The measured EMF, :math:`\mathcal{E}^t` is
